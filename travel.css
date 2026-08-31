@@ -1,0 +1,359 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.home{
+	width: 700px;
+	height: 250px;
+	margin: 100px auto;
+	border: 3px solid;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, .20);
+}
+.home p{
+   font-size: 1.5em; font-style: italic;
+}
+.first{
+   background-color: #FF7F50;
+    color: #FFFFFF;
+    padding: 0 25px; 
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em;
+    cursor: pointer;
+    width: 28%;
+    transition: background-color 0.3s;
+}
+.first:hover{
+   background-color: #FF6347;
+}
+ nav{
+ 	color: white;
+	height: 110px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px;
+	background-color: rgba(0, 0, 0, .20);
+	position: sticky;
+	top: 0;
+   font-size: 1.1em; 
+ }
+ nav a{
+   color: white;              /* Link ka color change karega */
+  text-decoration: none;     /* Underline hatayega */
+  padding: 10px;
+ }
+ nav a:hover {
+  color: lightblue;          /* Hover pe color change */
+}
+ .saki{
+ 	display: flex;
+	margin-left: 10px;
+	list-style: none;
+ }
+ ul li{
+ 	margin-left: 20px;
+}
+nav h4{
+	color: white;
+	font-size: 20px;
+	margin: 0;
+}
+ 
+ button{
+ 	height: 35px;
+ 	width: 20%;
+ 	font-size: 20px;
+ 	color: #fff;
+ 	background-color: #808080;
+ 	border-radius: 10px;
+ 	border: solid #808080;
+ }
+ img{
+ 	transition: transform 0.2s ease;
+ }
+ img:hover{
+ 	transform: scale(1.1) ;
+ }
+ .choose{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: stretch;
+ 	flex-wrap: wrap;
+ 	margin: 40px auto;
+ 	max-width: 1200px;
+ }
+ .box{
+ 	border: 2px solid #ccc;
+ 	border-radius: 10px;
+ 	padding: 20px;
+ 	width: 250px;
+ 	text-align: center;
+ 	background-color: rgba(0, 0, 0,.40);
+ 	box-shadow: 0 4px 8px rgba(0, 0, 0,20);
+ 	transition: all 0.3s ease;
+ }
+ .box:hover{
+ 	transform: scale(1.05);
+ 	box-shadow: 0 8px 15px rgba(0, 0, 0, .20);
+ }
+ .box h2{
+ 	font-size: 1.5em; 
+   color: orange; /* Use your accent color */
+ 	margin-bottom: 10px;
+ }
+ .box p{
+ 	font-size: 1em;
+ 	line-height: 1.5;
+ }
+ footer{
+ 	font-family: alergian;
+ 	font-size: 20px;
+   background-color: rgba(10, 10, 10, .60);
+   padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+ }
+ footer p:first-child {
+    color: #FF7F50;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+footer p:last-child {
+    color: #A9A9A9; 
+    font-size: 0.9em;
+}
+ hr{
+ 	width: 50%;
+ 	size: 10px;
+ 	color: darkgray;
+ }
+ .trip{
+ 	height: 35px;
+ 	width: 45%;
+ 	font-size: 20px;
+ 	color: white;
+ 	background-color: #00bfff;
+ 	border-radius: 25px;
+ 	border: none ;
+   font-size: 16px;
+   padding: 5px 20px;
+ }
+ .trip:hover{
+   background-color: #FFD700;
+  color: #000;
+  box-shadow: 0 0 10px #FFD700;
+}
+.book {
+    /* Button Appearance */
+    display: inline-block; /* Element ko height/width apply karne ke liye */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding top/bottom aur left/right */
+    text-decoration: none; /* Underline hatane ke liye */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Smooth hover effect ke liye */
+}
+
+.book:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+ .paragraph{
+ 	width: 700px;
+	height: 180px;
+	border: 3px solid;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, .20);
+	text-align: justify;
+	padding: 10px;
+ }
+ .packages-details{
+   position: relative;
+   z-index: 1;
+ }
+ .packages-row{
+ 	display: flex;
+ 	align-items: center;
+ 	gap: 24px;
+ 	max-width: 900px;
+ 	margin: 24px;
+ 	padding: 16px 20px;
+ 	background-color: rgba(0, 0, 0,0.35);
+ 	border-radius: 14px;
+ }
+ .packages-row img{
+ 	object-fit: cover;
+ 	border-radius: 12px;
+ }
+ .packages-details h2{
+ 	margin: 0 0 8px;
+ }
+ .packages-details p{
+ 	margin: 4px 0;
+ 	opacity: 0.95;
+ }
+ .custom {
+         margin: 20px auto;
+         padding: 15px 30px;
+         max-width: 700px; /* Width set for better centering */
+         border: 3px solid #007bff; /* Gold border */
+         border-radius: 10px;
+         cursor: pointer; /* Change mouse pointer on hover */
+         transition: background-color 0.3s;
+      }
+      
+    
+.custom a {
+         text-decoration: none; 
+}
+.custom a p { 
+         color: #007bff; /* Gold text color to stand out */
+         font-size: 24px;
+         font-weight: bold;
+         margin: 0; /* Remove default paragraph margin */
+      }
+.custom:hover {
+         background-color: rgba(255, 215, 0, 0.1); /* Light gold tint on hover */
+      }
+ .about ,.team ,.journey{
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(0,0,0,0.45);
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    backdrop-filter: blur(4px);
+    text-align: left;
+ }
+ .Introduction .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    flex-wrap: wrap;
+ }
+ .Introduction .text{
+   flex: 1;
+ }
+ .Introduction img{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+ }
+ .team{
+   text-align: center;
+ }
+ .message{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+ }
+ .booking{
+    color: #ff9900; /* Orange/Yellow highlight color */
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 10px;
+ }
+ .booking form table{
+    width: 100%;
+ }
+ .booking form th{
+    padding: 10px 0; /* Vertical spacing for table rows */
+    text-align: center;
+ }
+ .booking button{
+    background-color: #ff9900; /* Highlight color */
+    color: #000000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    width: 60%;
+ }
+ .booking button:hover{
+    background-color: #e68a00; /* Slightly darker on hover */
+ }
+ .booking table[border="3px"]{
+    width: 100%;
+    margin-top: 20px;
+    border: none; /* Removing the default border */
+ }
+ .booking table[border="3px"] tr {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3); /* Separator line */
+}
+.booking table[border="3px"] tr:last-child {
+    border-bottom: none; /* No line after the last row */
+}
+.booking table[border="3px"] th{
+    color: cornsilk;
+    text-align: left; /* Align text inside to the left for better readability */
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: normal; /* Reset font weight */
+}
+.booking table[border="3px"] th b{
+    color: #ff9900; /* Highlight the label (Address, Email, Phone) */
+    display: inline-block;
+    min-width: 80px; /* Ensure labels are aligned */
+    font-weight: bold;
+    margin-right: 10px;
+}
+.login{
+   width: 400px;
+   background-color: rgba(0, 0, 0, 0.45);
+   padding: 25px;
+   border-radius: 12px;
+   text-align: center;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.login h2{
+   color: #ff9900;
+   margin-bottom: 20px;
+   text-shadow: 1px 1px 3px black;
+}
+.login input{
+   width: 90%;
+   padding: 12px;
+   border: none;
+   margin: 10px 0;
+   border-radius: 6px;
+   background-color: rgba(255, 255, 255, 0.25);
+   color: white;
+   font-size: 16px;
+}
+::placeholder{
+   color: #eee;
+}
+.login-btn{
+   background-color: #ff9900;
+   color: white;
+   padding: 8px;
+   border: none;
+   width: 90%;
+   font-size: 18px;
+   border-radius: 6px;
+   cursor: pointer;
+   margin-top: 10px;
+   font-weight: bold;
+}
+.login-btn:hover{
+   background-color: #e68500;
+   transform: scale(1.04);
+   transition: 0.2s;
+}
